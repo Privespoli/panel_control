@@ -10,8 +10,8 @@ const pantallaDestino = document.getElementById("destino-id");
 botonIdentificar.addEventListener("click", function() {
 
     pantallaNombre.innerText = miNombre;
-    pantallaDestino.innerText = destinos[1];
+    pantallaDestino.innerText = destinos[2];
     
     
-    console.log("Comandante identificado! El destino es:" + destinos[1]);
+    console.log("Comandante identificado! El destino es:" + destinos[2]);
 });

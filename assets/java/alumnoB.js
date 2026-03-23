@@ -1,4 +1,4 @@
-let motoresActivos = false;
+const motoresActivos = false;
 
 const btnMotores = document.getElementById("btn-motores");
 const estadoMotores = document.getElementById("estado-motores");
@@ -13,3 +13,5 @@ btnMotores.addEventListener("click", function () {
 btnDespegue.addEventListener("click", function () {
   btnDespegue.classList.add("activado");
 });
+
+console.log("motoresActivos")
